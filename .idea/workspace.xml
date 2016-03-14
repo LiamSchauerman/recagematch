@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4561077d-bde2-4ed9-baf4-5a0741334f12" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Cage/Cage.js" afterPath="$PROJECT_DIR$/src/components/Cage/Cage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/actions/cageActions.js" afterPath="$PROJECT_DIR$/src/redux/actions/cageActions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/reducers/cageReducer.js" afterPath="$PROJECT_DIR$/src/redux/reducers/cageReducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="newcage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,11 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Entry.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Entry.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Entry/Entry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11741683">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.1136365">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,16 +127,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -147,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/components/Entry/style.css" />
         <option value="$PROJECT_DIR$/src/components/Cage/Cage.js" />
         <option value="$PROJECT_DIR$/src/components/Entry/Entry.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -592,8 +591,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Entry/Entry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11741683">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1136365">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
