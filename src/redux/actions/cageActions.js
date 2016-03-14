@@ -5,12 +5,13 @@ export const createMatchup = () => {
     console.log(cage);
     // build matchup
     console.log('setting sides');
-    let rand1 = 'tt0100935';
+    const list = Object.keys(state.idMap);
+    let rand1 = list[Math.floor(Math.random()*list.length)] || 'tt0100935';
     let rand2 = 'tt0119094';
     const payload = {
       left: state.idMap[rand1],
       right: state.idMap[rand2]
-    }
+    };
     return {
       type: 'CREATE_MATCHUP',
       payload
@@ -19,10 +20,10 @@ export const createMatchup = () => {
   }
 };
 
-export const chooseWinner = (payload) => {
+export const chooseWinner = (matchupResult) => {
   return {
     type: 'CHOOSE_WINNER',
-    payload
+    matchupResult
   };
 };
 

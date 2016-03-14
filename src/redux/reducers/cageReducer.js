@@ -383,12 +383,18 @@ const initialState = {
 export const cageReducer = (state = initialState, action) => {
   switch (action.type) {
     case 'CREATE_MATCHUP':
-      return state;
+
+      return {
+        ...state,
+        left: action.payload.left,
+        right: action.payload.right
+      };
 
     case 'CHOOSE_WINNER':
-    {
-      return action.filter
-    }
+      console.log(action.payload);
+      return {
+        state,
+      };
 
     default:
       return state

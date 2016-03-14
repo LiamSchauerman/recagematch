@@ -1,15 +1,16 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import {bindActionCreators} from 'redux';
+import Entry from '../../components/Entry/Entry';
 
 import {chooseWinner, skip, createMatchup} from '../../redux/actions/cageActions';
-//import {EPG, LiveDetails, VideoPlayer} from '../../components';
 
 
 const mapStateToProps = ({cage}) => {
   return {
     left: cage.left,
     right: cage.right,
+    idMap: cage.idMap
 
   };
 };
@@ -30,11 +31,13 @@ class Cage extends Component {
   };
 
   render() {
-    const { left, right } = this.props;
+    console.log(this.props);
+    const { left, right, idMap } = this.props;
 
     return (
       <div>
-        Left: {left} Right: {right}
+        <Entry data={idMap[left]}/>
+        <Entry data={idMap[right]}/>
       </div>
     );
   }
